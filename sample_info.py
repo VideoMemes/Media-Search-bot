@@ -1,9 +1,9 @@
 # Bot information
 SESSION = 'Media_search'
 USER_SESSION = 'User_Bot'
-API_ID = 12345
-API_HASH = '0123456789abcdef0123456789abcdef'
-BOT_TOKEN = '123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11'
+API_ID = 9789543
+API_HASH = '99b6921c0d9d6b3d6c06f2e3ab9c024d'
+BOT_TOKEN = '5289127873:AAG02Zs5lnzZSCD07h-gqEr0fUvgRwYtbTM'
 USERBOT_STRING_SESSION = ''
 
 # Bot settings
@@ -11,22 +11,20 @@ CACHE_TIME = 300
 USE_CAPTION_FILTER = False
 
 # Admins, Channels & Users
-ADMINS = [12345789, 'admin123', 98765432]
-CHANNELS = [-10012345678, -100987654321, 'channelusername']
+ADMINS = [580487810]
+CHANNELS = [-1001446583785]
 AUTH_USERS = []
-AUTH_CHANNEL = None
+AUTH_CHANNEL = [-1001120944838]
 
 # MongoDB information
-DATABASE_URI = "mongodb://[username:password@]host1[:port1][,...hostN[:portN]][/[defaultauthdb]?retryWrites=true&w=majority"
-DATABASE_NAME = 'Telegram'
-COLLECTION_NAME = 'channel_files'  # If you are using the same database, then use different collection name for each bot
-
+DATABASE_URI = "mongodb+srv://Erichdaniken:<Erichdaniken>@cluster0.yyo1f.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+DATABASE_NAME = 'myfiltbot'
+COLLECTION_NAME = 'Telegram_files'
 # Messages
 START_MSG = """
-**Hi, I'm Media Search bot**
+**Hi, I'm Movies Search BOT, Powered BY [VM](https://t.me/VideoMemesTamil)**
 
-Here you can search files in inline mode. Just press follwing buttons and start searching.
-"""
+**Here you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.**
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
 INVITE_MSG = 'Please join @.... to use this bot'
